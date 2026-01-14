@@ -1,3 +1,41 @@
+#erro-senha{
+  text-align: center;
+}
+
+#olho-span:hover, #olho-span-confirm:hover{
+    cursor: pointer;
+}
+
+.paragrafo-erro{
+    margin-left: 5%;
+    color: white;
+    margin-top: 10px;
+}
+
+.caixa-erro{
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.651);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    animation: some 3s linear forwards;
+}
+
+.caixa-erro i{
+    transform: scale(2.0);
+    margin-left: 5%;
+}
+
+@keyframes some {
+    from{
+        opacity: 1;
+    } to{
+        opacity: 0;
+    }
+}
+
 /* From Uiverse.io by LightAndy1 */ 
 .group {
   display: flex;
