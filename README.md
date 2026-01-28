@@ -9,15 +9,15 @@ Apache (XAMPP, WAMP ou similar)
 
 ## Como rodar o projeto
 1. Clone o repositório:
-git clone https://github.com/cauegz/login-orientado-a-objetos.git
+`git clone https://github.com/cauegz/login-orientado-a-objetos.git`
 
-2. Coloque a pasta do projeto dentro do htdocs (ou pasta equivalente).
+2. Coloque a pasta do projeto dentro do `htdocs` (ou pasta equivalente).
 
 3. Crie um banco de dados no MySQL com o nome de `loginoo`.
 
 4. Importe o arquivo SQL que está no projeto.
 
-5. Configure a conexão com o banco em config/conexao.php.
+5. Configure a conexão com o banco em `config/conexao.php`.
 
 6. Inicie o Apache e o MySQL.
 
