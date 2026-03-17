@@ -15,11 +15,13 @@ Apache (XAMPP, WAMP ou similar)
 
 3. Crie um banco de dados no MySQL com o nome de `loginoo`.
 
-4. Importe o arquivo SQL que está no projeto.
+4. Importe o arquivo SQL que está na pasta `database/db.sql`.
 
 5. Configure a conexão com o banco em `config/conexao.php`.
 
 6. Inicie o Apache e o MySQL.
+
+7. Acesse `localhost/login-orientado-a-objetos/public` no seu navegador
 
 ## Funcionalidades
 Cadastro de usuários  
