@@ -1,7 +1,7 @@
 <?php
     class Database {
         private static $username = "root";
-        private static $dbname = "loginOO";
+        private static $dbname = "loginoo";
         private static $password = "";
         private static $server = "localhost";
 
