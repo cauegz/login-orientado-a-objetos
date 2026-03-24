@@ -29,7 +29,7 @@ class ControllerHome
         //pesquisar usuario
         else {
             $contatos = new Agendas(pdo: $pdo);
-            $contatos = $contatos->pesquisaContato(search: $search);
+            $contatos = $contatos->pesquisaContato(search: $search,id_table:  $_SESSION['id_table']);
         }   
         require "views/Home.php";
     }

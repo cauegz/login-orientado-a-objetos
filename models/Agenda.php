@@ -16,13 +16,15 @@ class Agendas
         ]);
         return $stmt->fetchAll(mode: PDO::FETCH_ASSOC);
     }
-    public function pesquisaContato(string $search): array
+    public function pesquisaContato(string $search, string $id_table): array
     {
         $sql = "SELECT * FROM contatos 
-                        WHERE nome LIKE :search";
+                        WHERE nome LIKE :search
+                        AND id_usuario = :id_table";
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute([
-            ":search" => "%" . $search . "%"
+            ":search" => "%" . $search . "%",
+            ":id_table" => $id_table
         ]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
